@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">    
+  <head>        
+    <meta charset="UTF-8" />        
+    <meta data-fr-http-equiv="X-UA-Compatible" content="IE=edge" />        
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />        
+    <title>HTML Forms</title>    
+    <style>
+      form > * + * {
+        margin-top: 1rem;
+      }
+      
+    </style>
+  </head>    
+  <body>        
+    <form>            
+      <div>                
+        First Name: <input type="text" placeholder="Byron">            
+      </div>
+            
+      <div>                
+        Last Name: <input type="text" placeholder="Lucas">    
+      </div>
+            
+      <div>                
+        Address: <input type="text" placeholder="My Address">           
+      </div>
+            
+      <div>                
+        State: <select name="" id="">
+          <option value="NSW">NSW</option>
+        </select>            
+      </div>
+            
+      <div>                
+        Password: <input type="password">          
+      </div>
+            
+      <div>                
+        Gender: <input type="radio" name="gender" value="Male">Male <span>or</span>
+        <input type="radio" name="gender" value="Female">Female
+      </div>
+            
+      <div>                
+        Do you bleat like a sheep? <input type="checkbox" name="option" value="Yes">Yes         
+      </div>
+            
+      <div>                
+        How many cups of coffee do you drink a day? <br>
+        <input type="radio" name="qty" value="0 to 2 Cup(s)">0 to 2 Cup(s) 
+        <input type="radio" name="qty" value="2 to 4 Cups">2 to 4 Cups <br>
+        <input type="radio" name="qty" value="4 to 8 Cups">4 to 8 Cups 
+        <input type="radio" name="qty" value="8 to 16 Cups">8 to 16 Cups     
+      </div>
+            
+      <div>                
+        Do you own a personal computer? <select name="" id="">
+          <option value="Yes">Yes</option>
+        </select>         
+      </div>
+            
+      <div>                
+        How long would it take to create a HTML Form? <br>
+        <input type="text" name="" id="">          
+      </div>
+            
+      <div>                
+        Comments <br>
+        <textarea name="" id="" cols="30" rows="10"></textarea>          
+      </div>
+            
+      <div>                
+        <button>Reset Form</button>             
+        <button>Send Survey</button>            
+      </div>        
+    </form>    
+  </body>
+</html>
